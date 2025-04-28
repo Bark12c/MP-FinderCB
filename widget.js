@@ -98,30 +98,6 @@ Yours sincerely,
 
 ${postcode}`);
 
-+ const body = encodeURIComponent(`
-+ Dear ${mp.name},
-+
-+ I am writing to you regarding the ASLEF train driver’s union ‘Rail Freight Future’ campaign and the need for investment in the UK’s rail freight industry.
-+ I am a member of ASLEF and a train driver, and I know how important the railways are for our country.
-+ Rail freight is a key contributor to the UK economy and helps to protect the climate, while also increasing road safety and creating jobs.
-+ We need rail freight to build homes and infrastructure and to deliver the goods, medicine and food that people need.
-+ A lack of investment in rail infrastructure alongside rising costs for rail usage have seen rail freight at a disadvantage over the last decade, causing decline and a race to the bottom within the sector. This must change.
-+
-+ As my MP I am asking that you:
-+ - Read the report put together by ASLEF at [insert link here]
-+ - Call for investment in the railways and speak up for rail freight in Parliament and your constituency
-+ - Join the campaign to reinstate HS2 to increase capacity for rail freight resulting in better passenger services
-+ - Raise the needs of rail freight in the process for Great British Railways calling for fair access, expansion and a strategy to grow freight
-+
-+ Thank you for taking the time to read my email.
-+
-+ Yours sincerely,
-+
-+ [Your Name]
-+
-+ ${postcode}
-+ `);
-
         );
 
         resultDiv.innerHTML = `
